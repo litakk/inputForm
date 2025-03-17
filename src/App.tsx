@@ -10,6 +10,7 @@ function App() {
     reset,
   } = useForm();
 
+  
   const onSubmit = (data: any) => {
     console.log(data);
     reset();
@@ -116,7 +117,7 @@ function App() {
             type="submit"
             className="w-full bg-green-300 text-white py-2 px-4 rounded-lg hover:bg-green-400 transition duration-200 cursor-pointer"
           >
-            Отправить
+          Отправить
           </button>
         </form>
       </div>
